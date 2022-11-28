@@ -18,7 +18,7 @@ public class Snippets {
 
     void browser_command_examples() {
 
-        open("https://google.com");
+        open("https://google.com"); //https://the-internet.herokuapp.com/
         open("/customer/orders");     // -Dselenide.baseUrl=http://123.23.23.1
         open("/", AuthenticationType.BASIC,
                 new BasicAuthCredentials("user", "password"));
